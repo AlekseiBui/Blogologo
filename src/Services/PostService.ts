@@ -1,7 +1,7 @@
 import { PostResponseType, PostType } from "../Types/Types"
 
 export const GetPosts = (offset: number): Promise<PostType[]> => {
-    return fetch(`https://studapi.teachmeskills.by/blog/posts/?limit=12&offset=${offset}`)
+    return fetch(`https://studapi.teachmeskills.by/blog/posts/?limit=12&offset=${36 + offset}`)
         .then(response => response.json())
         .then((result: PostResponseType) => result.results)
 }
