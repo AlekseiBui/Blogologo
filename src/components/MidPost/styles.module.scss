@@ -1,0 +1,78 @@
+.MidPost {
+    width: 352px;
+    height: 452px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: 2px solid #DADADA;
+
+    >img {
+        width: 100%;
+        height: 246px;
+    }
+
+    div:nth-child(2) {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    a {
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 600;
+    }
+}
+
+.MidPost_BottomPart {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+    .LikeDislike {
+        display: flex;
+        flex-direction: row;
+
+        div {
+            margin-right: 15px;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 24px;
+        }
+
+        button {
+            border: none;
+            outline: none;
+            margin-right: 15px;
+        }
+
+        button:active {
+            transition: 1s;
+            outline: 2px solid #912EF2;
+        }
+    }
+
+    .FavOptions {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        button {
+            border: none;
+            outline: none;
+            margin-right: 15px;
+        }
+
+        button:active {
+            transition: 1s;
+            outline: 2px solid #912EF2;
+        }
+    }
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: #912EF2;
+}

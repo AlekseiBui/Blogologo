@@ -1,0 +1,40 @@
+.Success {
+    display: flex;
+    flex-direction: column;
+    width: 1120px;
+
+    a {
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 16px;
+        color: black;
+        margin-bottom: 20px;
+    }
+
+    .Success_Name {
+        font-weight: 700;
+        font-size: 56PX;
+        margin-bottom: 40px;
+    }
+
+    .Success_functions {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        align-items: center;
+        width: 540px;
+        height: 150px;
+        padding: 40px;
+        border: 1px solid #DADADA;
+
+        >div {
+            width: 544px;
+            margin-bottom: 5px;
+        }
+
+        a>input {
+            width: 544px;
+            margin-top: 20px;
+        }
+    }
+}

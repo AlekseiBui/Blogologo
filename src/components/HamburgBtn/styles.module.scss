@@ -1,0 +1,50 @@
+.hamburgBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 84px;
+    height: 84px;
+    cursor: pointer;
+    background-color: #912EF2;
+
+    >span,
+    >span::before,
+    >span::after {
+        display: block;
+        position: absolute;
+        width: 42px;
+        height: 2px;
+        background-color: white;
+        transition-duration: .25s;
+    }
+
+    >span::before {
+        content: '';
+        width: 100%;
+        top: -8px;
+    }
+
+    >span::after {
+        content: '';
+        width: 100%;
+        top: 8px;
+    }
+}
+
+.menuToggle {
+    display: none;
+}
+
+.menuToggle:checked~.hamburgBtn>span {
+    transform: rotate(45deg);
+}
+
+.menuToggle:checked~.hamburgBtn>span::before {
+    top: 0;
+    transform: rotate(0);
+}
+
+.menuToggle:checked~.hamburgBtn>span::after {
+    top: 0;
+    transform: rotate(90deg);
+}

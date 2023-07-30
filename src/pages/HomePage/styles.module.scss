@@ -1,0 +1,27 @@
+.BlogName {
+    display: flex;
+    align-items: center;
+    width: 1120px;
+    font-weight: 700;
+    font-size: 56PX;
+}
+
+.Paging {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1120px;
+    margin-top: 74px;
+    font-weight: 600;
+    font-size: 16px;
+
+    button {
+        border: none;
+        outline: none;
+        margin: 5px;
+    }
+
+    button:active {
+        outline: 2px solid #912EF2;
+    }
+}

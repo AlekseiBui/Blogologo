@@ -1,0 +1,37 @@
+.App {
+    width: 100%;
+    padding-top: 72px;
+    padding-bottom: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ligth {
+    background-color: #F3F3F3;
+
+    button {
+        background-color: #F3F3F3;
+    }
+}
+
+.dark {
+    background-color: #313037;
+    color: white;
+
+    button {
+        background-color: #313037;
+
+        >div {
+            color: white
+        }
+    }
+
+    a {
+        color: white;
+    }
+
+    a:hover {
+        color: #912EF2;
+    }
+}

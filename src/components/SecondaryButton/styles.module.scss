@@ -1,0 +1,24 @@
+.SecondaryButton {
+    width: 132px;
+    height: 56px;
+    border-radius: 2px;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    transition: .2s;
+}
+
+.able {
+    color: black;
+    background: #E8E8E8;
+
+    &:active {
+        background: #DADADA;
+    }
+}
+
+.disabled {
+    background: #E8E8E8;
+    color: #8D8E97;
+}

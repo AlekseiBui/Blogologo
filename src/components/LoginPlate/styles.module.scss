@@ -1,0 +1,39 @@
+.LoginPlate {
+    width: 230px;
+    height: 84px;
+    background: #912EF2;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    :first-child {
+        width: 42px;
+        height: 42px;
+        border-radius: 2px;
+        background-color: #780de3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.LoginPlateNotAuth {
+    width: 84px;
+    height: 84px;
+    background: #912EF2;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    >img {
+        width: 50%;
+        height: 50%;
+    }
+}

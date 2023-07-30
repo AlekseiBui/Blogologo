@@ -1,0 +1,49 @@
+.SignUp {
+    display: flex;
+    flex-direction: column;
+    width: 1120px;
+
+    a {
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 16px;
+        color: black;
+        margin-bottom: 20px;
+    }
+
+    .SignUp_Name {
+        font-weight: 700;
+        font-size: 56PX;
+        margin-bottom: 30px;
+    }
+
+    .SignUp_functions {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        align-items: center;
+        width: 540px;
+        height: 477px;
+        padding: 40px;
+        border: 1px solid #DADADA;
+
+        label {
+            margin-bottom: 10px;
+        }
+
+        a>input {
+            width: 544px;
+            margin-top: 20px;
+        }
+
+        .SignUp_HaveAcc {
+            font-size: 16px;
+            font-weight: 500;
+            color: #8D8E97;
+
+            span {
+                color: #912EF2;
+            }
+        }
+    }
+}

@@ -1,0 +1,55 @@
+.SignIn {
+    display: flex;
+    flex-direction: column;
+    width: 1120px;
+
+    a {
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 16px;
+        color: black;
+        margin-bottom: 20px;
+    }
+
+    .SignIn_Name {
+        font-weight: 700;
+        font-size: 56PX;
+        margin-bottom: 30px;
+    }
+
+    .SignIn_functions {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        align-items: center;
+        width: 540px;
+        height: 338px;
+        padding: 40px;
+        border: 1px solid #DADADA;
+
+        label {
+            margin-bottom: 10px;
+        }
+
+        .SignIn_ForgotPass {
+            width: 544px;
+            font-weight: 400;
+            font-size: 16px;
+            margin-bottom: 40px;
+        }
+
+        a>input {
+            width: 544px;
+        }
+
+        .SignIn_NoAcc {
+            font-size: 16px;
+            font-weight: 500;
+            color: #8D8E97;
+
+            span {
+                color: #912EF2;
+            }
+        }
+    }
+}

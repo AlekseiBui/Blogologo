@@ -1,0 +1,24 @@
+.PrimaryButton {
+    width: 132px;
+    height: 56px;
+    border-radius: 2px;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    transition: .2s;
+}
+
+.able {
+    color: white;
+    background: #912EF2;
+
+    &:active {
+        background: #780de3;
+    }
+}
+
+.disabled {
+    background: #E8E8E8;
+    color: #8D8E97;
+}
